@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<TextView
+    android:text="Car Number"
+    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+    android:id="@+id/textViewCar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+<TextView
+    android:text="Date"
+    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+    android:id="@+id/textViewDate"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Details and Issues"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:id="@+id/textViewDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Price"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:id="@+id/textViewPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

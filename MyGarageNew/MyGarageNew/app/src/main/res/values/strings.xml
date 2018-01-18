@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">MyGarage</string>
+    <string name="carNumber">Car Number</string>
+    <string name="date">Date</string>
+    <string name="EmployeeID">Employee ID</string>
+    <string name="issue">Issue</string>
+    <string name="CustomerID">Customer ID</string>
+    <string name="AddTreat">Add Treatment</string>
+    <string name="price">Price</string>
+    <string name="signin">SIGN IN</string>
+    <string name="signup">SIGN UP</string>
+    <string name="email_address">Email address</string>
+    <string name="password">password</string>
+    <string name="create_new_user">Create new user</string>
+    <string name="first_name">first name</string>
+    <string name="last_name">last name</string>
+    <string name="new_password">new password</string>
+    <string name="repeat_pasword">repeat pasword</string>
+    <string name="city">city</string>
+    <string name="street">street</string>
+    <string name="house_number">house number</string>
+    <string name="apt_number">apt. number (optional)</string>
+    <string name="todo">TODO</string>
+    <string name="profile_picture">profile picture</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="map">map</string>
+    <string name="read_me">read me</string>
+    <string name="ID_Number">ID_number</string>
+    <string name="PhoneNumber">Phone Number</string>
+    <string name="about_us">About us</string>
+    <string name="create_new_Employee">create_new_Employee</string>
+    <string name="Employee_ID">Employee_ID</string>
+    <string name="create_new_employee">create_new_employee</string>
+    <string name="create_new_employee1">create new employee</string>
+    <string name="customerslist">Customers List</string>
+    <string name="treatmentlist">Treatments List</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_treatments"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.gabys.mygarage.activities.views.TreatmentsActivity">
+
+    <Button
+        android:id="@+id/buttonAddTreatment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Add Treatment" />
+
+<TextView
+    android:id="@+id/textView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/buttonAddTreatment"
+    android:layout_alignStart="@+id/buttonAddTreatment"
+    android:layout_below="@+id/buttonAddTreatment"
+    android:text="@string/treatmentlist"
+    android:textAlignment="center"
+    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+
+<ListView
+    android:id="@+id/listViewTreatments"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/textView"
+    android:layout_alignStart="@+id/textView"
+    android:layout_below="@+id/textView"
+    android:layout_marginTop="15dp"></ListView>
+
+</RelativeLayout>
